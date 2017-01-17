@@ -1,0 +1,16 @@
+# Ignore nginx build setup
+nginx-*/Makefile
+nginx-*/objs
+
+# Ignore nginx build results
+build/
+
+# Ignore vim swap files
+*.swp
+*.swo
+
+# Ignore Sublime Text files
+*.sublime-workspace
+
+# Ignore Konqueror files
+.directory
