@@ -2,6 +2,9 @@
 nginx-*/Makefile
 nginx-*/objs
 
+# Ignore nginx logs
+build/logs
+
 # Ignore nginx build results
 # Not ignore build results to demonstrate how configuration changes during proxy setup
 # build/
