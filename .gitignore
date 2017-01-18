@@ -3,7 +3,8 @@ nginx-*/Makefile
 nginx-*/objs
 
 # Ignore nginx build results
-build/
+# Not ignore build results to demonstrate how configuration changes during proxy setup
+# build/
 
 # Ignore vim swap files
 *.swp
